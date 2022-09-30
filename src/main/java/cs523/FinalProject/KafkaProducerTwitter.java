@@ -114,41 +114,6 @@ public class KafkaProducerTwitter {
 		
 	}
 	
-//	private static class TwitterStatusListener implements StatusListener {
-//		
-//		final LinkedBlockingQueue<Status> queue = new LinkedBlockingQueue<Status>(1000);
-//
-//		@Override
-//		public void onStatus(Status status) {
-//			queue.offer(status);
-//		}
-//
-//		@Override
-//		public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
-//			System.out.println("Got a status deletion notice id:" + statusDeletionNotice.getStatusId());
-//		}
-//
-//		@Override
-//		public void onTrackLimitationNotice(int numberOfLimitedStatuses) {
-//			System.out.println("Got track limitation notice:" + numberOfLimitedStatuses);
-//		}
-//
-//		@Override
-//		public void onScrubGeo(long userId, long upToStatusId) {
-//			System.out.println("Got scrub_geo event userId:" + userId + "upToStatusId:" + upToStatusId);
-//		}
-//
-//		@Override
-//		public void onStallWarning(StallWarning warning) {
-//			System.out.println("Got stall warning:" + warning);
-//		}
-//
-//		@Override
-//		public void onException(Exception ex) {
-//			ex.printStackTrace();
-//		}
-//	}
-	
 	 private static String getLocation(String loc){
 			
 			if (loc == null) 
