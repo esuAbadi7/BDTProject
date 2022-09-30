@@ -31,7 +31,7 @@
     WITH SERDEPROPERTIES (
     "separatorChar" = ",",
     "quoteChar" = "\"" )
-     LOCATION '/user/cloudera/twitterImport';
+     LOCATION '/user/cloudera/twitterImport1';
 
 7. Run KafkaProducerTwitter.java class
 
